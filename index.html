@@ -5,41 +5,131 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Kanit:wght@300;400&family=Martian+Mono:wght@300&display=swap"
+    rel="stylesheet">
   <title>Dayana</title>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <h1 class="main-title">Shakenova Dayana</h1>
-      <h2 class="main-title__sub">Web Developer</h2>
+      <div class="header__container">
+        <h1 class="main-title">Shakenova Dayana</h1>
+        <h2 class="main-title__sub">Web Developer</h2>
+      </div>
     </div>
   </header>
   <main>
-    <div class="container">
-      <div class="left-block">
-        
+    <div class="container main-container">
+      <div class=" block left-block">
+        <div class="projects">
+          <h3 class="title">Projects</h3>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <h2 class="project__title">
+                Minesweeper
+              </h2>
+              <p class="project__description description">
+                This application was created during the RS School course. The Sapper game has been implemented.
+                <span class="accent">Technologies used:</span> Vanilla JS, HTML, CSS.
+              </p>
+              <div class="projects__links">
+                <a class="link projects__item-link" href="https://dayanych.github.io/minesweeper/">Deploy</a>
+                <a class="link projects__item-link" href="https://github.com/dayanych/minesweeper">Repository</a>
+              </div>
+            </li>
+            <li class="projects__item">
+              <h2 class="project__title">
+                CSS dinner
+              </h2>
+              <p class="project__description description">
+                This is a SPA, which is an implementation of a training application designed
+                to learn selectors.
+                <span class="accent">Technologies used:</span> Webpack, TypeScript, SCSS.
+              </p>
+              <div class="projects__links">
+                <a class="link projects__item-link"
+                  href="https://rolling-scopes-school.github.io/dayanych-JSFE2023Q1/rs-selectors/dist/">Deploy</a>
+              </div>
+            </li>
+            <li class="projects__item">
+              <h6 class="project__title">Manhattan</h6>
+              <p class="project__description description">
+                This is a multi-page website for a trendy urban bar.
+                <span class="accent">Technologies used:</span> Gulp, HTML, SCSS, JavaScript.
+              </p>
+              <div class="projects__links">
+                <a class="link projects__item-link"
+                  href="https://dayanych.github.io/manhattan/build/index.html">Deploy</a>
+                <a class="link projects__item-link" href="https://github.com/dayanych/manhattan">Repository</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h3 class="title">Courses</h3>
+          <ul class="courses__list">
+            <li class="courses__item">
+              <h4 class="courses__item-title">RS School</h4>
+              <p class="courses__item-description description">Free Front-end/JavaScript course</p>
+              <p class="courses__item-date">12.2022 - 10.2023</p>
+              <a class="link courses__item-link" href="https://app.rs.school/certificate/v0z5x2ze">Certificate</a>
+            </li>
+          </ul>
+        </div>
+        <div class="experience">
+          <h3 class="title">Experience</h3>
+          <ul class="experience__list">
+            <li class="experience__item">
+              <h4 class="experience__title">
+                Fullstack Developer
+              </h4>
+              <p class="experience__company">YGroup</p>
+              <p class="experience__date">09.2023 - now</p>
+              <p class="experience__description description">
+                Development of a admin platform, api.
+                <span class="accent">Technologies used:</span> NestJS, React, TypeScript, PostgreSQL.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="right-block">
+      <div class="block right-block">
+        <div class="summary">
+          <h3 class="title">Summary</h3>
+          <p class="summary__text description"> I am interested in web development and I want to develop in this direction. I am
+            looking for a company where I can gain experience and improve my skills.</p>
+        </div>
         <div class="contact">
           <h3 class="title">Contact</h3>
           <ul class="contact__list">
             <li class="contact__item">
-              <span class="contact__item-title">Phone:</span>
+              <div class="contact__item-img">
+                <img src="./img/whatsapp.svg" alt="Phone">
+              </div>
               <a class="contact__item-value" href="https://wa.me/77055086670">+7 705 508 66 70</a>
             </li>
             <li class="contact__item">
-              <span class="contact__item-title">Email:</span>
+              <div class="contact__item-img">
+                <img src="./img/mail.svg" alt="Email">
+              </div>
               <a class="contact__item-value" href="mailto:dayana.shakenova20@gmail.com">dayana.shakenova20@gmail.com
               </a>
             </li>
             <li class="contact__item">
-              <span class="contact__item-title">Telegram:</span>
+              <div class="contact__item-img">
+                <img src="./img/tg.svg" alt="Telegram">
+              </div>
               <a class="contact__item-value" href="https://t.me/lfzyf">lfzyf
               </a>
             </li>
             <li class="contact__item">
-              <span class="contact__item-title">GitHub:</span>
+              <div class="contact__item-img">
+                <img src="./img/gh.svg" alt="GitHub">
+              </div>
               <a class="contact__item-value" href="https://github.com/dayanych">dayanych
               </a>
             </li>
@@ -49,12 +139,23 @@
           <ul class="skills__list">
             <li class="skills__item">HTML</li>
             <li class="skills__item">CSS</li>
-            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">JavaScript / TypeScript</li>
             <li class="skills__item">React</li>
-            <li class="skills__item">Git</li>
+            <li class="skills__item">NestJS</li>
           </ul>
+        </div>
+        <div class="instruments">
+          <h3 class="title">Instruments</h3>
+          <ul class="instruments__list">
+            <li class="instruments__item">Git</li>
+            <li class="instruments__item">Vite</li>
+            <li class="instruments__item">Webpack</li>
+            <li class="instruments__item">Prettier</li>
+            <li class="instruments__item">ESLint</li>
+            <li class="instruments__item">Figma</li>
+          </ul>
+        </div>
       </div>
-    </div>
   </main>
 </body>
 
