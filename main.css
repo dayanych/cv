@@ -142,11 +142,12 @@ h6 {
 
 .left-block {
   padding-right: 20px;
+  flex-shrink: 0;
 }
 
 .right-block {
-  max-width: 500px;
-  width: 100%;
+  /* max-width: 500px;
+  width: 100%; */
   padding-left: 20px;
   border-left: 1px solid #999999;
 }
@@ -233,7 +234,3 @@ h6 {
   list-style: circle;
   list-style: inside;
 }
-/* 
-font-family: "Inter", sans-serif;
-  font-family: "Kanit", sans-serif;
-  font-family: "Martian Mono", monospace; */
