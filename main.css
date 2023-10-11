@@ -61,7 +61,7 @@ h6 {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 50px;
 }
 
 .title {
@@ -124,7 +124,7 @@ h6 {
 }
 
 .header__container {
-  padding: 20px 0;
+  padding: 40px 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
