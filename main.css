@@ -28,6 +28,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  margin: 150px 100px;
 }
 
 a,
@@ -95,7 +96,6 @@ h6 {
 
 .accent {
   color: #636363;
-  text-decoration: underline;
 }
 
 .description {
@@ -194,7 +194,7 @@ h6 {
 .experience__list {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 15px;
 }
 
 .experience__item {
@@ -213,9 +213,14 @@ h6 {
 .experience__company {
   font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 1px;
   color: #474747;
+}
+
+.experience__description {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.5;
 }
 
 .contact__list {
